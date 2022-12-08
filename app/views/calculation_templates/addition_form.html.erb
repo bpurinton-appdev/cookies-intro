@@ -9,3 +9,10 @@
 
   <button>Add!</button>
 </form>
+
+<p>
+  Previous addition: 
+  <%= cookies[:addition_first_num].to_f %> + 
+  <%= cookies[:addition_second_num].to_f %> = 
+  <%= cookies[:addition_result].to_f %>
+</p>
